@@ -35,7 +35,7 @@ yum update -y
 yum install docker -y
 systemctl start docker
 systemctl enable docker
-systemctl status docker
+#systemctl status docker
 #sudo usermod -a -G docker jenkins
 #sudo service docker start
 sudo chkconfig docker on
